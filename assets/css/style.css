@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Charter";
+  src: url("../font/Charter.eot");
+  src: url("../font/Charter.eot?#iefix") format("embedded-opentype"),
+    url("../font/Charter.woff2") format("woff2"),
+    url("../font/Charter.woff") format("woff"),
+    url("../font/Charter.ttf") format("truetype"),
+    url("../font/Charter.svg#Charter") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  transition: 0.5s;
+}
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Charter";
+  font-weight: 400;
+}
+main {
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+main::after {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  background-color: #ababab14;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  content: "";
+}
+section {
+  padding: 80px 0;
+}
+
+h6 {
+  color: #582dbd;
+  font-weight: 600;
+  font-size: 20px;
+}
+h1 {
+  font-size: 50px;
+  color: #2f1c6a;
+  font-weight: 600;
+}
+h2 {
+  font-size: 50px;
+  color: #2f1c6a;
+  font-weight: 600;
+}
+p {
+  color: #333;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+a {
+  color: #acacac;
+  font-weight: 700;
+  text-decoration: none;
+}
+svg,
+i {
+  font-size: 10px;
+  color: #582dbd;
+}
+img {
+  width: 50px;
+  margin-left: -10px;
+}
+
+/*==================
+     Main css
+==================== */
+.card {
+  border: none;
+  background: transparent;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.card-title {
+  font-size: 23px;
+  margin: 10px 0;
+  font-weight: 600;
+  font-family: "Charter";
+}
+.card-text {
+  font-size: 16px;
+}
