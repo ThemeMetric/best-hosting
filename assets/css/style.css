@@ -72,6 +72,9 @@ i {
 /*==================
      Main css
 ==================== */
+.title span {
+  color: #582dbd;
+}
 .icon img {
   width: 50px;
   margin-left: -10px;
@@ -93,4 +96,9 @@ i {
 }
 section.features {
   background: #fafafa;
+}
+
+.goal-counter .card {
+  background: #ffffff !important;
+  padding: 0 25px;
 }
