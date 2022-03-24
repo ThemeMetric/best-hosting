@@ -109,3 +109,27 @@ i {
   background: #ffffff !important;
   padding: 0 25px;
 }
+
+/*==================
+     Responsive css
+==================== */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
