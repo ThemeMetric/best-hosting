@@ -20,7 +20,7 @@ body {
   font-weight: 400;
 }
 main {
-  padding: 50px 0;
+  padding-top: 50px;
   position: relative;
   overflow: hidden;
 }
@@ -50,6 +50,11 @@ h1 {
 }
 h2 {
   font-size: 50px;
+  color: #2f1c6a;
+  font-weight: 600;
+}
+h3 {
+  font-size: 40px;
   color: #2f1c6a;
   font-weight: 600;
 }
@@ -95,9 +100,8 @@ i {
   font-size: 16px;
 }
 section.features {
-  background: #fafafa;
+  background: #ababab14;
 }
-
 .goal-counter .card {
   background: #ffffff !important;
   padding: 0 25px;
