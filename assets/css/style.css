@@ -37,7 +37,6 @@ main::after {
 section {
   padding: 80px 0;
 }
-
 h6 {
   color: #582dbd;
   font-weight: 600;
@@ -99,8 +98,12 @@ i {
 .card-text {
   font-size: 16px;
 }
-section.features {
-  background: #ababab14;
+.features,
+.comments,
+.work-flow,
+.learning,
+.wordpress-web {
+  background: #ababab0f;
 }
 .goal-counter .card {
   background: #ffffff !important;
