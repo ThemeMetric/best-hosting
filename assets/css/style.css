@@ -44,7 +44,7 @@ h6 {
   font-size: 20px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #2f1c6a;
   font-weight: 600;
 }
@@ -68,14 +68,14 @@ i {
   font-size: 10px;
   color: #582dbd;
 }
-img {
-  width: 50px;
-  margin-left: -10px;
-}
 
 /*==================
      Main css
 ==================== */
+.icon img {
+  width: 50px;
+  margin-left: -10px;
+}
 .card {
   border: none;
   background: transparent;
