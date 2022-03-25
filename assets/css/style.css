@@ -19,6 +19,7 @@ body {
   font-family: "Charter";
   font-weight: 400;
 }
+
 main {
   padding-top: 50px;
   position: relative;
@@ -73,10 +74,31 @@ i {
   font-size: 10px;
   color: #582dbd;
 }
-
+button {
+  color: #000 !important;
+  border: 1px solid #000;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 5px 25px !important;
+  background: transparent;
+  border-radius: 50px;
+}
 /*==================
      Main css
 ==================== */
+.logo {
+  width: 200px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  z-index: 99;
+}
+nav.sticky {
+  background-color: #e4dbfc;
+}
 .title span {
   color: #582dbd;
 }
@@ -103,7 +125,8 @@ i {
 .comments,
 .work-flow,
 .learning,
-.wordpress-web {
+.wordpress-web,
+footer {
   background: #ababab0f;
 }
 .goal-counter .card {
@@ -136,6 +159,9 @@ i {
 }
 
 @media screen and (max-width: 480px) {
+  .logo {
+    width: 150px;
+  }
   .goal-counter .card {
     width: 100%;
   }
