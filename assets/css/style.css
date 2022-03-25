@@ -87,7 +87,7 @@ button {
      Main css
 ==================== */
 .logo {
-  width: 10%;
+  width: 200px;
 }
 .sticky {
   position: fixed;
@@ -125,7 +125,8 @@ nav.sticky {
 .comments,
 .work-flow,
 .learning,
-.wordpress-web {
+.wordpress-web,
+footer {
   background: #ababab0f;
 }
 .goal-counter .card {
@@ -152,15 +153,15 @@ nav.sticky {
   }
 }
 @media screen and (max-width: 768px) {
-  .logo {
-    width: 50%;
-  }
 }
 
 @media screen and (max-width: 640px) {
 }
 
 @media screen and (max-width: 480px) {
+  .logo {
+    width: 150px;
+  }
   .goal-counter .card {
     width: 100%;
   }

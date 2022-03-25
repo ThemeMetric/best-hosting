@@ -30,6 +30,8 @@
       </nav>
     </header>
     <!-- header ends from here -->
+
+    <!-- main starts from here -->
     <main>
       <!-- plans starts from here -->
       <section class="plans">
@@ -225,16 +227,28 @@
       </section>
       <!-- features ends from here -->
     </main>
+    <!-- main ends from here -->
+
+    <!-- footer starts from here -->
+    <footer class="py-3">
+      <div class="container">
+        <hr />
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              © 2004-2022 hostinger.com - Premium Web Hosting, Cloud, VPS &
+              Domain Registration Services.
+            </p>
+          </div>
+          <div class="col-md-4 text-end">
+            <p>Prices are listed without VAT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends from here -->
+
     <!-- scripts -->
-    <script>
-      // the dom
-      const navbar = document.querySelector(".navbar");
-
-      // the action for when a user scroll the web page
-
-      window.addEventListener("scroll", function () {
-        navbar.classList.toggle("sticky", window.scrollY > 0);
-      });
-    </script>
+    <script src="assets/js/init.js"></script>
   </body>
 </html>
