@@ -32,6 +32,7 @@ main::after {
   width: 700px;
   height: 700px;
   border-radius: 50%;
+  z-index: -1;
   content: "";
 }
 section {
@@ -90,7 +91,7 @@ i {
   border-radius: 15px;
 }
 .card-title {
-  font-size: 23px;
+  font-size: 26px;
   margin: 10px 0;
   font-weight: 600;
   font-family: "Charter";
@@ -107,9 +108,12 @@ i {
 }
 .goal-counter .card {
   background: #ffffff !important;
-  padding: 0 25px;
+  padding: 5px 25px;
+  width: 80%;
 }
-
+.goal-icons {
+  width: 90%;
+}
 /*==================
      Responsive css
 ==================== */
@@ -121,6 +125,9 @@ i {
   h1 {
     font-size: 40px;
   }
+  .goal-icons {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 768px) {
 }
@@ -129,6 +136,9 @@ i {
 }
 
 @media screen and (max-width: 480px) {
+  .goal-counter .card {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {
